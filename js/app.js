@@ -121,7 +121,7 @@ $toTop.addEventListener(
 function enviarMensagem(){
   $.ajax({
     type: 'POST',
-    url: "http://163.107.93.174/send",
+    url: "https://transformar.primeup.com.br/send",
     data: { 
         'nome': $("#name").val(), 
         'email': $("#email").val(),
